@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Message renders without crashing when message has been sent to 1 recipient 1`] = `
+<li
+  className="chat-message"
+>
+  <span
+    className="date"
+  >
+    [8/28/2018]
+  </span>
+  <button
+    className="user-select from"
+    onClick={[Function]}
+    type="button"
+  >
+    fromUser: 
+  </button>
+  <button
+    className="user-select to"
+    key="recipient 1"
+    type="button"
+  >
+    @recipient 1
+  </button>
+  <span
+    className="message"
+  >
+    testMessage1
+  </span>
+</li>
+`;
+
+exports[`Message renders without crashing when message has been sent to 2 recipients 1`] = `
+<li
+  className="chat-message"
+>
+  <span
+    className="date"
+  >
+    [8/28/2018]
+  </span>
+  <button
+    className="user-select from"
+    onClick={[Function]}
+    type="button"
+  >
+    fromUser: 
+  </button>
+  <button
+    className="user-select to"
+    key="recipient 1"
+    type="button"
+  >
+    @recipient 1
+  </button>
+  <button
+    className="user-select to"
+    key="recipient 2"
+    type="button"
+  >
+    @recipient 2
+  </button>
+  <span
+    className="message"
+  >
+    testMessage1
+  </span>
+</li>
+`;
+
+exports[`Message renders without crashing when message has been sent to 3 recipients 1`] = `
+<li
+  className="chat-message"
+>
+  <span
+    className="date"
+  >
+    [8/28/2018]
+  </span>
+  <button
+    className="user-select from"
+    onClick={[Function]}
+    type="button"
+  >
+    fromUser: 
+  </button>
+  <button
+    className="user-select to"
+    key="recipient 1"
+    type="button"
+  >
+    @recipient 1
+  </button>
+  <button
+    className="user-select to"
+    key="recipient 2"
+    type="button"
+  >
+    @recipient 2
+  </button>
+  <button
+    className="user-select to"
+    key="recipient 3"
+    type="button"
+  >
+    @recipient 3
+  </button>
+  <span
+    className="message"
+  >
+    testMessage1
+  </span>
+</li>
+`;
+
+exports[`Message renders without crashing when message has been sent to all 1`] = `
+<li
+  className="chat-message"
+>
+  <span
+    className="date"
+  >
+    [8/28/2018]
+  </span>
+  <button
+    className="user-select from"
+    onClick={[Function]}
+    type="button"
+  >
+    fromUser: 
+  </button>
+  <span
+    className="message"
+  >
+    testMessage1
+  </span>
+</li>
+`;

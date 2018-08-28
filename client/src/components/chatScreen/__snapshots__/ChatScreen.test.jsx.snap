@@ -1,0 +1,831 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ChatScreen renders without crashing when connected 1`] = `
+<div
+  className="chat-messages-list-container"
+>
+  <ul
+    className="chat-messages-list"
+  >
+    <li
+      className="chat-message"
+    >
+      <span
+        className="date"
+      >
+        [8/28/2018]
+      </span>
+      <button
+        className="user-select from"
+        onClick={[Function]}
+        type="button"
+      >
+        User 1: 
+      </button>
+      <span
+        className="message"
+      >
+        Message 1
+      </span>
+    </li>
+    <li
+      className="chat-message"
+    >
+      <span
+        className="date"
+      >
+        [8/28/2018]
+      </span>
+      <button
+        className="user-select from"
+        onClick={[Function]}
+        type="button"
+      >
+        User 1: 
+      </button>
+      <span
+        className="message"
+      >
+        Message 2
+      </span>
+    </li>
+    <li
+      className="chat-message"
+    >
+      <span
+        className="date"
+      >
+        [8/28/2018]
+      </span>
+      <button
+        className="user-select from"
+        onClick={[Function]}
+        type="button"
+      >
+        User 1: 
+      </button>
+      <button
+        className="user-select to"
+        key="User 2"
+        type="button"
+      >
+        @User 2
+      </button>
+      <span
+        className="message"
+      >
+        Message 3 to one user
+      </span>
+    </li>
+    <li
+      className="chat-message"
+    >
+      <span
+        className="date"
+      >
+        [8/28/2018]
+      </span>
+      <button
+        className="user-select from"
+        onClick={[Function]}
+        type="button"
+      >
+        User 2: 
+      </button>
+      <button
+        className="user-select to"
+        key="User 1"
+        type="button"
+      >
+        @User 1
+      </button>
+      <button
+        className="user-select to"
+        key="User 2"
+        type="button"
+      >
+        @User 2
+      </button>
+      <span
+        className="message"
+      >
+        User 2 answer
+      </span>
+    </li>
+    <li
+      className="chat-message"
+    >
+      <span
+        className="date"
+      >
+        [8/28/2018]
+      </span>
+      <button
+        className="user-select from"
+        onClick={[Function]}
+        type="button"
+      >
+        User 3: 
+      </button>
+      <button
+        className="user-select to"
+        key="User 1"
+        type="button"
+      >
+        @User 1
+      </button>
+      <button
+        className="user-select to"
+        key="User 2"
+        type="button"
+      >
+        @User 2
+      </button>
+      <span
+        className="message"
+      >
+        User 3 question?
+      </span>
+    </li>
+    <li
+      className="chat-message"
+    >
+      <span
+        className="date"
+      >
+        [8/28/2018]
+      </span>
+      <button
+        className="user-select from"
+        onClick={[Function]}
+        type="button"
+      >
+        User 1: 
+      </button>
+      <button
+        className="user-select to"
+        key="User 1"
+        type="button"
+      >
+        @User 1
+      </button>
+      <button
+        className="user-select to"
+        key="User 2"
+        type="button"
+      >
+        @User 2
+      </button>
+      <button
+        className="user-select to"
+        key="User 3"
+        type="button"
+      >
+        @User 3
+      </button>
+      <span
+        className="message"
+      >
+        User 1 answer
+      </span>
+    </li>
+    <li
+      className="chat-message"
+    >
+      <span
+        className="date"
+      >
+        [8/28/2018]
+      </span>
+      <button
+        className="user-select from"
+        onClick={[Function]}
+        type="button"
+      >
+        User 2: 
+      </button>
+      <span
+        className="message"
+      >
+        Message 7
+      </span>
+    </li>
+    <li
+      className="chat-message"
+    >
+      <span
+        className="date"
+      >
+        [8/28/2018]
+      </span>
+      <button
+        className="user-select from"
+        onClick={[Function]}
+        type="button"
+      >
+        User 2: 
+      </button>
+      <span
+        className="message"
+      >
+        Message 8
+      </span>
+    </li>
+    <li
+      className="chat-message"
+    >
+      <span
+        className="date"
+      >
+        [8/28/2018]
+      </span>
+      <button
+        className="user-select from"
+        onClick={[Function]}
+        type="button"
+      >
+        User 1: 
+      </button>
+      <span
+        className="message"
+      >
+        Message 9
+      </span>
+    </li>
+    <li
+      className="chat-message"
+    >
+      <span
+        className="date"
+      >
+        [8/28/2018]
+      </span>
+      <button
+        className="user-select from"
+        onClick={[Function]}
+        type="button"
+      >
+        User 3: 
+      </button>
+      <span
+        className="message"
+      >
+        Message 10
+      </span>
+    </li>
+    <li
+      className="chat-message"
+    >
+      <span
+        className="date"
+      >
+        [8/28/2018]
+      </span>
+      <button
+        className="user-select from"
+        onClick={[Function]}
+        type="button"
+      >
+        User 1: 
+      </button>
+      <span
+        className="message"
+      >
+        Message 1
+      </span>
+    </li>
+    <li
+      className="chat-message"
+    >
+      <span
+        className="date"
+      >
+        [8/28/2018]
+      </span>
+      <button
+        className="user-select from"
+        onClick={[Function]}
+        type="button"
+      >
+        User 1: 
+      </button>
+      <span
+        className="message"
+      >
+        Message 2
+      </span>
+    </li>
+    <li
+      className="chat-message"
+    >
+      <span
+        className="date"
+      >
+        [8/28/2018]
+      </span>
+      <button
+        className="user-select from"
+        onClick={[Function]}
+        type="button"
+      >
+        User 1: 
+      </button>
+      <button
+        className="user-select to"
+        key="User 2"
+        type="button"
+      >
+        @User 2
+      </button>
+      <span
+        className="message"
+      >
+        Message 3 to one user
+      </span>
+    </li>
+    <li
+      className="chat-message"
+    >
+      <span
+        className="date"
+      >
+        [8/28/2018]
+      </span>
+      <button
+        className="user-select from"
+        onClick={[Function]}
+        type="button"
+      >
+        User 2: 
+      </button>
+      <button
+        className="user-select to"
+        key="User 1"
+        type="button"
+      >
+        @User 1
+      </button>
+      <button
+        className="user-select to"
+        key="User 2"
+        type="button"
+      >
+        @User 2
+      </button>
+      <span
+        className="message"
+      >
+        User 2 answer
+      </span>
+    </li>
+    <li
+      className="chat-message"
+    >
+      <span
+        className="date"
+      >
+        [8/28/2018]
+      </span>
+      <button
+        className="user-select from"
+        onClick={[Function]}
+        type="button"
+      >
+        User 3: 
+      </button>
+      <button
+        className="user-select to"
+        key="User 1"
+        type="button"
+      >
+        @User 1
+      </button>
+      <button
+        className="user-select to"
+        key="User 2"
+        type="button"
+      >
+        @User 2
+      </button>
+      <span
+        className="message"
+      >
+        User 3 question?
+      </span>
+    </li>
+    <li
+      className="chat-message"
+    >
+      <span
+        className="date"
+      >
+        [8/28/2018]
+      </span>
+      <button
+        className="user-select from"
+        onClick={[Function]}
+        type="button"
+      >
+        User 1: 
+      </button>
+      <button
+        className="user-select to"
+        key="User 1"
+        type="button"
+      >
+        @User 1
+      </button>
+      <button
+        className="user-select to"
+        key="User 2"
+        type="button"
+      >
+        @User 2
+      </button>
+      <button
+        className="user-select to"
+        key="User 3"
+        type="button"
+      >
+        @User 3
+      </button>
+      <span
+        className="message"
+      >
+        User 1 answer
+      </span>
+    </li>
+    <li
+      className="chat-message"
+    >
+      <span
+        className="date"
+      >
+        [8/28/2018]
+      </span>
+      <button
+        className="user-select from"
+        onClick={[Function]}
+        type="button"
+      >
+        User 2: 
+      </button>
+      <span
+        className="message"
+      >
+        Message 7
+      </span>
+    </li>
+    <li
+      className="chat-message"
+    >
+      <span
+        className="date"
+      >
+        [8/28/2018]
+      </span>
+      <button
+        className="user-select from"
+        onClick={[Function]}
+        type="button"
+      >
+        User 2: 
+      </button>
+      <span
+        className="message"
+      >
+        Message 8
+      </span>
+    </li>
+    <li
+      className="chat-message"
+    >
+      <span
+        className="date"
+      >
+        [8/28/2018]
+      </span>
+      <button
+        className="user-select from"
+        onClick={[Function]}
+        type="button"
+      >
+        User 1: 
+      </button>
+      <span
+        className="message"
+      >
+        Message 9
+      </span>
+    </li>
+    <li
+      className="chat-message"
+    >
+      <span
+        className="date"
+      >
+        [8/28/2018]
+      </span>
+      <button
+        className="user-select from"
+        onClick={[Function]}
+        type="button"
+      >
+        User 3: 
+      </button>
+      <span
+        className="message"
+      >
+        Message 10
+      </span>
+    </li>
+    <li
+      className="chat-message"
+    >
+      <span
+        className="date"
+      >
+        [8/28/2018]
+      </span>
+      <button
+        className="user-select from"
+        onClick={[Function]}
+        type="button"
+      >
+        User 1: 
+      </button>
+      <span
+        className="message"
+      >
+        Message 1
+      </span>
+    </li>
+    <li
+      className="chat-message"
+    >
+      <span
+        className="date"
+      >
+        [8/28/2018]
+      </span>
+      <button
+        className="user-select from"
+        onClick={[Function]}
+        type="button"
+      >
+        User 1: 
+      </button>
+      <span
+        className="message"
+      >
+        Message 2
+      </span>
+    </li>
+    <li
+      className="chat-message"
+    >
+      <span
+        className="date"
+      >
+        [8/28/2018]
+      </span>
+      <button
+        className="user-select from"
+        onClick={[Function]}
+        type="button"
+      >
+        User 1: 
+      </button>
+      <button
+        className="user-select to"
+        key="User 2"
+        type="button"
+      >
+        @User 2
+      </button>
+      <span
+        className="message"
+      >
+        Message 3 to one user
+      </span>
+    </li>
+    <li
+      className="chat-message"
+    >
+      <span
+        className="date"
+      >
+        [8/28/2018]
+      </span>
+      <button
+        className="user-select from"
+        onClick={[Function]}
+        type="button"
+      >
+        User 2: 
+      </button>
+      <button
+        className="user-select to"
+        key="User 1"
+        type="button"
+      >
+        @User 1
+      </button>
+      <button
+        className="user-select to"
+        key="User 2"
+        type="button"
+      >
+        @User 2
+      </button>
+      <span
+        className="message"
+      >
+        User 2 answer
+      </span>
+    </li>
+    <li
+      className="chat-message"
+    >
+      <span
+        className="date"
+      >
+        [8/28/2018]
+      </span>
+      <button
+        className="user-select from"
+        onClick={[Function]}
+        type="button"
+      >
+        User 3: 
+      </button>
+      <button
+        className="user-select to"
+        key="User 1"
+        type="button"
+      >
+        @User 1
+      </button>
+      <button
+        className="user-select to"
+        key="User 2"
+        type="button"
+      >
+        @User 2
+      </button>
+      <span
+        className="message"
+      >
+        User 3 question?
+      </span>
+    </li>
+    <li
+      className="chat-message"
+    >
+      <span
+        className="date"
+      >
+        [8/28/2018]
+      </span>
+      <button
+        className="user-select from"
+        onClick={[Function]}
+        type="button"
+      >
+        User 1: 
+      </button>
+      <button
+        className="user-select to"
+        key="User 1"
+        type="button"
+      >
+        @User 1
+      </button>
+      <button
+        className="user-select to"
+        key="User 2"
+        type="button"
+      >
+        @User 2
+      </button>
+      <button
+        className="user-select to"
+        key="User 3"
+        type="button"
+      >
+        @User 3
+      </button>
+      <span
+        className="message"
+      >
+        User 1 answer
+      </span>
+    </li>
+    <li
+      className="chat-message"
+    >
+      <span
+        className="date"
+      >
+        [8/28/2018]
+      </span>
+      <button
+        className="user-select from"
+        onClick={[Function]}
+        type="button"
+      >
+        User 2: 
+      </button>
+      <span
+        className="message"
+      >
+        Message 7
+      </span>
+    </li>
+    <li
+      className="chat-message"
+    >
+      <span
+        className="date"
+      >
+        [8/28/2018]
+      </span>
+      <button
+        className="user-select from"
+        onClick={[Function]}
+        type="button"
+      >
+        User 2: 
+      </button>
+      <span
+        className="message"
+      >
+        Message 8
+      </span>
+    </li>
+    <li
+      className="chat-message"
+    >
+      <span
+        className="date"
+      >
+        [8/28/2018]
+      </span>
+      <button
+        className="user-select from"
+        onClick={[Function]}
+        type="button"
+      >
+        User 1: 
+      </button>
+      <span
+        className="message"
+      >
+        Message 9
+      </span>
+    </li>
+    <li
+      className="chat-message"
+    >
+      <span
+        className="date"
+      >
+        [8/28/2018]
+      </span>
+      <button
+        className="user-select from"
+        onClick={[Function]}
+        type="button"
+      >
+        User 3: 
+      </button>
+      <span
+        className="message"
+      >
+        Message 10
+      </span>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`ChatScreen renders without crashing when not connected 1`] = `
+<div
+  className="chat-not-connected-popup-container"
+>
+  <div
+    className="chat-not-connected-popup"
+  >
+    <div
+      className="popup-row"
+    >
+      Unable to connect to server
+    </div>
+    <div
+      className="popup-row"
+    >
+      Please try later
+    </div>
+  </div>
+</div>
+`;
