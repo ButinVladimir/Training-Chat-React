@@ -5,12 +5,12 @@ exports[`App renders without crashing 1`] = `
   className="chat-app"
 >
   <div
-    className="chat-app-column"
+    className="chat-app-column grow"
   >
     <div
-      className="chat-app-row"
+      className="chat-app-row grow"
     >
-      <ChatScreen
+      <ChatPanel
         connected={true}
         messages={
           Array [
@@ -267,17 +267,50 @@ exports[`App renders without crashing 1`] = `
     </div>
     <div
       className="chat-app-row"
-    />
+    >
+      <SpeechPanel
+        loginned={true}
+        onChange={[Function]}
+        onRemoveTo={[Function]}
+        onSay={[Function]}
+        speech="text"
+        to={
+          Array [
+            "f1",
+            "f2",
+          ]
+        }
+      />
+    </div>
   </div>
   <div
     className="chat-app-column"
   >
     <div
       className="chat-app-row"
-    />
+    >
+      <LoginPanel
+        login="xXxSonicSucksSocksxXx"
+        loginned={true}
+        onChangeLogin={[Function]}
+        onLogin={[Function]}
+        onLogout={[Function]}
+      />
+    </div>
     <div
-      className="chat-app-row"
-    />
+      className="chat-app-row grow"
+    >
+      <UsersPanel
+        onClickUser={[Function]}
+        usersList={
+          Array [
+            "user1",
+            "user2",
+            "user3",
+          ]
+        }
+      />
+    </div>
   </div>
 </div>
 `;

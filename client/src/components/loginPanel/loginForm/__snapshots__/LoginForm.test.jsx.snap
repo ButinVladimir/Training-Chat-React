@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginForm renders without crashing 1`] = `
+<div
+  className="form-row"
+>
+  <input
+    className="input"
+    onChange={[Function]}
+    type="text"
+    value="login"
+  />
+  <button
+    className="login"
+    onClick={[Function]}
+    type="button"
+  >
+    Login
+  </button>
+</div>
+`;

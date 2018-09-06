@@ -1,0 +1,11 @@
+.chat-login-panel-container {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.chat-login-panel-container .form-row {
+  min-width: 210px;
+  box-sizing: border-box;
+  margin: 5px;
+}

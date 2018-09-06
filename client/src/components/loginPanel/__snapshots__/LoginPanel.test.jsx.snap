@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginPanel renders without crashing when loginned 1`] = `
+<div
+  className="chat-login-panel-container"
+>
+  <LogoutForm
+    login="login"
+    onLogout={[Function]}
+  />
+</div>
+`;
+
+exports[`LoginPanel renders without crashing when not loginned 1`] = `
+<div
+  className="chat-login-panel-container"
+>
+  <LoginForm
+    login="login"
+    onChangeLogin={[Function]}
+    onLogin={[Function]}
+  />
+</div>
+`;

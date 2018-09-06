@@ -4,7 +4,7 @@ import NotConnectedPopup from './notConnectedPopup/NotConnectedPopup';
 import MessagesList from './messagesList/MessagesList';
 import { messageShape } from '../../helpers/Message';
 
-function ChatScreen({ connected, messages, onClickUser }) {
+function ChatPanel({ connected, messages, onClickUser }) {
   return (
     <Fragment>
       {!connected && <NotConnectedPopup />}
@@ -13,10 +13,10 @@ function ChatScreen({ connected, messages, onClickUser }) {
   );
 }
 
-ChatScreen.propTypes = {
+ChatPanel.propTypes = {
   connected: PropTypes.bool.isRequired,
   messages: PropTypes.arrayOf(PropTypes.shape(messageShape)).isRequired,
   onClickUser: PropTypes.func.isRequired,
 };
 
-export default ChatScreen;
+export default ChatPanel;

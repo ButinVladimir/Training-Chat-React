@@ -19,6 +19,7 @@ exports[`Message renders without crashing when message has been sent to 1 recipi
   <button
     className="user-select to"
     key="recipient 1"
+    onClick={[Function]}
     type="button"
   >
     @recipient 1
@@ -50,6 +51,7 @@ exports[`Message renders without crashing when message has been sent to 2 recipi
   <button
     className="user-select to"
     key="recipient 1"
+    onClick={[Function]}
     type="button"
   >
     @recipient 1
@@ -57,6 +59,7 @@ exports[`Message renders without crashing when message has been sent to 2 recipi
   <button
     className="user-select to"
     key="recipient 2"
+    onClick={[Function]}
     type="button"
   >
     @recipient 2
@@ -88,6 +91,7 @@ exports[`Message renders without crashing when message has been sent to 3 recipi
   <button
     className="user-select to"
     key="recipient 1"
+    onClick={[Function]}
     type="button"
   >
     @recipient 1
@@ -95,6 +99,7 @@ exports[`Message renders without crashing when message has been sent to 3 recipi
   <button
     className="user-select to"
     key="recipient 2"
+    onClick={[Function]}
     type="button"
   >
     @recipient 2
@@ -102,6 +107,7 @@ exports[`Message renders without crashing when message has been sent to 3 recipi
   <button
     className="user-select to"
     key="recipient 3"
+    onClick={[Function]}
     type="button"
   >
     @recipient 3

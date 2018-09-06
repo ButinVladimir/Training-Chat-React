@@ -1,26 +1,27 @@
 .chat-app {
   display: flex;
-  width: 100vw;
-  max-width: 100vw;
-  height: 100vh;
-  max-height: 100vh;
   flex-direction: row;
   flex-wrap: nowrap;
+  width: 100vw;
+  height: 100vh;
 }
 
 .chat-app-column {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  flex-grow: 1;
   max-height: 100vh;
 }
 
 .chat-app-row {
   border: 1px solid black;
-  flex-grow: 1;
+  box-sizing: border-box;
   position: relative;
   display: flex;
   align-items: stretch;
   justify-content: stretch;
+}
+
+.chat-app-column.grow, .chat-app-row.grow {
+  flex-grow: 1;
 }

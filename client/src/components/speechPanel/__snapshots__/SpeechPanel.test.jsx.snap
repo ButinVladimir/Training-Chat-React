@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SpeechPanel renders without crashing when loginned 1`] = `
+<div
+  className="chat-speech-panel-container"
+>
+  <SpeechField
+    onChange={[Function]}
+    onRemoveTo={[Function]}
+    onSay={[Function]}
+    speech="123"
+    to={
+      Array [
+        "to1",
+        "to2",
+      ]
+    }
+  />
+</div>
+`;
+
+exports[`SpeechPanel renders without crashing when not loginned 1`] = `
+<div
+  className="chat-speech-panel-container"
+>
+  <NotLoginnedMessage />
+</div>
+`;

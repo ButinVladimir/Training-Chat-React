@@ -1,0 +1,33 @@
+.speech-container {
+  width: 100%;
+}
+
+.speech-input-container {
+  width: 100%;
+  display: flex;
+}
+
+.speech-input-container .speech {
+  flex-grow: 1;
+}
+
+.speech-to-container {
+  padding: 5px;
+}
+
+.speech-to-container .to-button {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  padding: 1px 3px 1px 3px;
+  margin-right: 3px;
+  background: #bbf;
+  border-radius: 3px;
+  border: 1px solid #77f;
+}
+
+.speech-to-container .to-button:hover {
+  border: 1px solid #22a;
+  background: #aae;
+  cursor: pointer;
+}

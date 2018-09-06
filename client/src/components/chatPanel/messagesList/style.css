@@ -1,6 +1,9 @@
 .chat-messages-list-container {
   flex-grow: 1;
   overflow: auto;
+  box-sizing: border-box;
+  max-height: calc(100vh - 58px);
+  max-width: 100%;
 }
 
 .chat-messages-list {
@@ -37,6 +40,7 @@
 
 .chat-message > .from:hover {
   background: #bbf;
+  cursor: pointer;
 }
 
 .chat-message > .to {
@@ -45,6 +49,7 @@
 
 .chat-message > .to:hover {
   background: #aae;
+  cursor: pointer;
 }
 
 .chat-message > .message {

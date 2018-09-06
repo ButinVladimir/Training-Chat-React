@@ -58,4 +58,45 @@ describe('Message', () => {
     );
     expect(component).toMatchSnapshot();
   });
+
+  it('handles click on from user correctly', () => {
+    const mock = jest.fn();
+
+    const component = shallow(
+      <Message
+        id="1"
+        date="8/28/2018"
+        from="fromUser"
+        to={[]}
+        message="testMessage1"
+        onClickUser={mock}
+      />,
+    );
+
+    component.find('button.from').simulate('click');
+
+    expect(mock).toHaveBeenCalledTimes(1);
+    expect(mock).toHaveBeenCalledWith('fromUser');
+  });
+
+  it('handles click on to user correctly', () => {
+    const mock = jest.fn();
+
+    const component = shallow(
+      <Message
+        id="1"
+        date="8/28/2018"
+        from="fromUser"
+        to={['toUser1', 'toUser2']}
+        message="testMessage1"
+        onClickUser={mock}
+      />,
+    );
+
+    component.find('button.to').forEach(w => w.simulate('click'));
+
+    expect(mock).toHaveBeenCalledTimes(2);
+    expect(mock).toHaveBeenCalledWith('toUser1');
+    expect(mock).toHaveBeenCalledWith('toUser2');
+  });
 });

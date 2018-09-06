@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UsersPanel renders without crashing 1`] = `
+<div
+  className="chat-users-list-container"
+>
+  <ul
+    className="users-list"
+  >
+    <User
+      key="user 1"
+      onClickUser={[Function]}
+      user="user 1"
+    />
+    <User
+      key="user 2"
+      onClickUser={[Function]}
+      user="user 2"
+    />
+  </ul>
+</div>
+`;

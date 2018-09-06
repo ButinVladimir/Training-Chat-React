@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LogoutForm renders without crashing 1`] = `
+<Fragment>
+  <div
+    className="form-row"
+  >
+    <span>
+      You are loginned as 
+    </span>
+    <strong>
+      login
+    </strong>
+  </div>
+  <div
+    className="form-row"
+  >
+    <button
+      className="logout"
+      onClick={[Function]}
+      type="button"
+    >
+      Logout
+    </button>
+  </div>
+</Fragment>
+`;

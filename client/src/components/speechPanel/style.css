@@ -1,0 +1,7 @@
+.chat-speech-panel-container {
+  width: 100%;
+  box-sizing: border-box;
+  background: white;
+  height: 60px;
+  overflow: hidden;
+}

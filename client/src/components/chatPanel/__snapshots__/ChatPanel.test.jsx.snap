@@ -1,0 +1,265 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ChatPanel renders without crashing when connected 1`] = `
+<Fragment>
+  <MessagesList
+    messages={
+      Array [
+        Message {
+          "date": "8/28/2018",
+          "from": "User 1",
+          "id": "1",
+          "message": "Message 1",
+          "to": Array [],
+        },
+        Message {
+          "date": "8/28/2018",
+          "from": "User 1",
+          "id": "2",
+          "message": "Message 2",
+          "to": Array [],
+        },
+        Message {
+          "date": "8/28/2018",
+          "from": "User 1",
+          "id": "3",
+          "message": "Message 3 to one user",
+          "to": Array [
+            "User 2",
+          ],
+        },
+        Message {
+          "date": "8/28/2018",
+          "from": "User 2",
+          "id": "4",
+          "message": "User 2 answer",
+          "to": Array [
+            "User 1",
+            "User 2",
+          ],
+        },
+        Message {
+          "date": "8/28/2018",
+          "from": "User 3",
+          "id": "5",
+          "message": "User 3 question?",
+          "to": Array [
+            "User 1",
+            "User 2",
+          ],
+        },
+        Message {
+          "date": "8/28/2018",
+          "from": "User 1",
+          "id": "6",
+          "message": "User 1 answer",
+          "to": Array [
+            "User 1",
+            "User 2",
+            "User 3",
+          ],
+        },
+        Message {
+          "date": "8/28/2018",
+          "from": "User 2",
+          "id": "7",
+          "message": "Message 7",
+          "to": Array [],
+        },
+        Message {
+          "date": "8/28/2018",
+          "from": "User 2",
+          "id": "8",
+          "message": "Message 8",
+          "to": Array [],
+        },
+        Message {
+          "date": "8/28/2018",
+          "from": "User 1",
+          "id": "9",
+          "message": "Message 9",
+          "to": Array [],
+        },
+        Message {
+          "date": "8/28/2018",
+          "from": "User 3",
+          "id": "10",
+          "message": "Message 10",
+          "to": Array [],
+        },
+        Message {
+          "date": "8/28/2018",
+          "from": "User 1",
+          "id": "11",
+          "message": "Message 1",
+          "to": Array [],
+        },
+        Message {
+          "date": "8/28/2018",
+          "from": "User 1",
+          "id": "12",
+          "message": "Message 2",
+          "to": Array [],
+        },
+        Message {
+          "date": "8/28/2018",
+          "from": "User 1",
+          "id": "13",
+          "message": "Message 3 to one user",
+          "to": Array [
+            "User 2",
+          ],
+        },
+        Message {
+          "date": "8/28/2018",
+          "from": "User 2",
+          "id": "14",
+          "message": "User 2 answer",
+          "to": Array [
+            "User 1",
+            "User 2",
+          ],
+        },
+        Message {
+          "date": "8/28/2018",
+          "from": "User 3",
+          "id": "15",
+          "message": "User 3 question?",
+          "to": Array [
+            "User 1",
+            "User 2",
+          ],
+        },
+        Message {
+          "date": "8/28/2018",
+          "from": "User 1",
+          "id": "16",
+          "message": "User 1 answer",
+          "to": Array [
+            "User 1",
+            "User 2",
+            "User 3",
+          ],
+        },
+        Message {
+          "date": "8/28/2018",
+          "from": "User 2",
+          "id": "17",
+          "message": "Message 7",
+          "to": Array [],
+        },
+        Message {
+          "date": "8/28/2018",
+          "from": "User 2",
+          "id": "18",
+          "message": "Message 8",
+          "to": Array [],
+        },
+        Message {
+          "date": "8/28/2018",
+          "from": "User 1",
+          "id": "19",
+          "message": "Message 9",
+          "to": Array [],
+        },
+        Message {
+          "date": "8/28/2018",
+          "from": "User 3",
+          "id": "20",
+          "message": "Message 10",
+          "to": Array [],
+        },
+        Message {
+          "date": "8/28/2018",
+          "from": "User 1",
+          "id": "21",
+          "message": "Message 1",
+          "to": Array [],
+        },
+        Message {
+          "date": "8/28/2018",
+          "from": "User 1",
+          "id": "22",
+          "message": "Message 2",
+          "to": Array [],
+        },
+        Message {
+          "date": "8/28/2018",
+          "from": "User 1",
+          "id": "23",
+          "message": "Message 3 to one user",
+          "to": Array [
+            "User 2",
+          ],
+        },
+        Message {
+          "date": "8/28/2018",
+          "from": "User 2",
+          "id": "24",
+          "message": "User 2 answer",
+          "to": Array [
+            "User 1",
+            "User 2",
+          ],
+        },
+        Message {
+          "date": "8/28/2018",
+          "from": "User 3",
+          "id": "25",
+          "message": "User 3 question?",
+          "to": Array [
+            "User 1",
+            "User 2",
+          ],
+        },
+        Message {
+          "date": "8/28/2018",
+          "from": "User 1",
+          "id": "26",
+          "message": "User 1 answer",
+          "to": Array [
+            "User 1",
+            "User 2",
+            "User 3",
+          ],
+        },
+        Message {
+          "date": "8/28/2018",
+          "from": "User 2",
+          "id": "27",
+          "message": "Message 7",
+          "to": Array [],
+        },
+        Message {
+          "date": "8/28/2018",
+          "from": "User 2",
+          "id": "28",
+          "message": "Message 8",
+          "to": Array [],
+        },
+        Message {
+          "date": "8/28/2018",
+          "from": "User 1",
+          "id": "29",
+          "message": "Message 9",
+          "to": Array [],
+        },
+        Message {
+          "date": "8/28/2018",
+          "from": "User 3",
+          "id": "30",
+          "message": "Message 10",
+          "to": Array [],
+        },
+      ]
+    }
+    onClickUser={[Function]}
+  />
+</Fragment>
+`;
+
+exports[`ChatPanel renders without crashing when not connected 1`] = `
+<Fragment>
+  <NotConnectedPopup />
+</Fragment>
+`;

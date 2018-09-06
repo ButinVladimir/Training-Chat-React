@@ -1,17 +1,17 @@
 import React from 'react';
-import { mount } from 'enzyme';
-import ChatScreen from './ChatScreen';
+import { shallow } from 'enzyme';
+import ChatPanel from './ChatPanel';
 import testMessages from '../../helpers/testMessages';
 
-describe('ChatScreen', () => {
+describe('ChatPanel', () => {
   it('renders without crashing when not connected', () => {
-    const component = mount(<ChatScreen connected={false} messages={[]} onClickUser={() => {}} />);
+    const component = shallow(<ChatPanel connected={false} messages={[]} onClickUser={() => {}} />);
     expect(component).toMatchSnapshot();
   });
 
   it('renders without crashing when connected', () => {
-    const component = mount(
-      <ChatScreen
+    const component = shallow(
+      <ChatPanel
         connected
         messages={testMessages}
         onClickUser={() => {}}

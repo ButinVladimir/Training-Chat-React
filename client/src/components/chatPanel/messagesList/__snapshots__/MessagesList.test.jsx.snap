@@ -1,0 +1,342 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MessagesList renders without crashing 1`] = `
+<div
+  className="chat-messages-list-container"
+>
+  <ul
+    className="chat-messages-list"
+  >
+    <Message
+      date="8/28/2018"
+      from="User 1"
+      id="1"
+      key="1"
+      message="Message 1"
+      onClickUser={[Function]}
+      to={Array []}
+    />
+    <Message
+      date="8/28/2018"
+      from="User 1"
+      id="2"
+      key="2"
+      message="Message 2"
+      onClickUser={[Function]}
+      to={Array []}
+    />
+    <Message
+      date="8/28/2018"
+      from="User 1"
+      id="3"
+      key="3"
+      message="Message 3 to one user"
+      onClickUser={[Function]}
+      to={
+        Array [
+          "User 2",
+        ]
+      }
+    />
+    <Message
+      date="8/28/2018"
+      from="User 2"
+      id="4"
+      key="4"
+      message="User 2 answer"
+      onClickUser={[Function]}
+      to={
+        Array [
+          "User 1",
+          "User 2",
+        ]
+      }
+    />
+    <Message
+      date="8/28/2018"
+      from="User 3"
+      id="5"
+      key="5"
+      message="User 3 question?"
+      onClickUser={[Function]}
+      to={
+        Array [
+          "User 1",
+          "User 2",
+        ]
+      }
+    />
+    <Message
+      date="8/28/2018"
+      from="User 1"
+      id="6"
+      key="6"
+      message="User 1 answer"
+      onClickUser={[Function]}
+      to={
+        Array [
+          "User 1",
+          "User 2",
+          "User 3",
+        ]
+      }
+    />
+    <Message
+      date="8/28/2018"
+      from="User 2"
+      id="7"
+      key="7"
+      message="Message 7"
+      onClickUser={[Function]}
+      to={Array []}
+    />
+    <Message
+      date="8/28/2018"
+      from="User 2"
+      id="8"
+      key="8"
+      message="Message 8"
+      onClickUser={[Function]}
+      to={Array []}
+    />
+    <Message
+      date="8/28/2018"
+      from="User 1"
+      id="9"
+      key="9"
+      message="Message 9"
+      onClickUser={[Function]}
+      to={Array []}
+    />
+    <Message
+      date="8/28/2018"
+      from="User 3"
+      id="10"
+      key="10"
+      message="Message 10"
+      onClickUser={[Function]}
+      to={Array []}
+    />
+    <Message
+      date="8/28/2018"
+      from="User 1"
+      id="11"
+      key="11"
+      message="Message 1"
+      onClickUser={[Function]}
+      to={Array []}
+    />
+    <Message
+      date="8/28/2018"
+      from="User 1"
+      id="12"
+      key="12"
+      message="Message 2"
+      onClickUser={[Function]}
+      to={Array []}
+    />
+    <Message
+      date="8/28/2018"
+      from="User 1"
+      id="13"
+      key="13"
+      message="Message 3 to one user"
+      onClickUser={[Function]}
+      to={
+        Array [
+          "User 2",
+        ]
+      }
+    />
+    <Message
+      date="8/28/2018"
+      from="User 2"
+      id="14"
+      key="14"
+      message="User 2 answer"
+      onClickUser={[Function]}
+      to={
+        Array [
+          "User 1",
+          "User 2",
+        ]
+      }
+    />
+    <Message
+      date="8/28/2018"
+      from="User 3"
+      id="15"
+      key="15"
+      message="User 3 question?"
+      onClickUser={[Function]}
+      to={
+        Array [
+          "User 1",
+          "User 2",
+        ]
+      }
+    />
+    <Message
+      date="8/28/2018"
+      from="User 1"
+      id="16"
+      key="16"
+      message="User 1 answer"
+      onClickUser={[Function]}
+      to={
+        Array [
+          "User 1",
+          "User 2",
+          "User 3",
+        ]
+      }
+    />
+    <Message
+      date="8/28/2018"
+      from="User 2"
+      id="17"
+      key="17"
+      message="Message 7"
+      onClickUser={[Function]}
+      to={Array []}
+    />
+    <Message
+      date="8/28/2018"
+      from="User 2"
+      id="18"
+      key="18"
+      message="Message 8"
+      onClickUser={[Function]}
+      to={Array []}
+    />
+    <Message
+      date="8/28/2018"
+      from="User 1"
+      id="19"
+      key="19"
+      message="Message 9"
+      onClickUser={[Function]}
+      to={Array []}
+    />
+    <Message
+      date="8/28/2018"
+      from="User 3"
+      id="20"
+      key="20"
+      message="Message 10"
+      onClickUser={[Function]}
+      to={Array []}
+    />
+    <Message
+      date="8/28/2018"
+      from="User 1"
+      id="21"
+      key="21"
+      message="Message 1"
+      onClickUser={[Function]}
+      to={Array []}
+    />
+    <Message
+      date="8/28/2018"
+      from="User 1"
+      id="22"
+      key="22"
+      message="Message 2"
+      onClickUser={[Function]}
+      to={Array []}
+    />
+    <Message
+      date="8/28/2018"
+      from="User 1"
+      id="23"
+      key="23"
+      message="Message 3 to one user"
+      onClickUser={[Function]}
+      to={
+        Array [
+          "User 2",
+        ]
+      }
+    />
+    <Message
+      date="8/28/2018"
+      from="User 2"
+      id="24"
+      key="24"
+      message="User 2 answer"
+      onClickUser={[Function]}
+      to={
+        Array [
+          "User 1",
+          "User 2",
+        ]
+      }
+    />
+    <Message
+      date="8/28/2018"
+      from="User 3"
+      id="25"
+      key="25"
+      message="User 3 question?"
+      onClickUser={[Function]}
+      to={
+        Array [
+          "User 1",
+          "User 2",
+        ]
+      }
+    />
+    <Message
+      date="8/28/2018"
+      from="User 1"
+      id="26"
+      key="26"
+      message="User 1 answer"
+      onClickUser={[Function]}
+      to={
+        Array [
+          "User 1",
+          "User 2",
+          "User 3",
+        ]
+      }
+    />
+    <Message
+      date="8/28/2018"
+      from="User 2"
+      id="27"
+      key="27"
+      message="Message 7"
+      onClickUser={[Function]}
+      to={Array []}
+    />
+    <Message
+      date="8/28/2018"
+      from="User 2"
+      id="28"
+      key="28"
+      message="Message 8"
+      onClickUser={[Function]}
+      to={Array []}
+    />
+    <Message
+      date="8/28/2018"
+      from="User 1"
+      id="29"
+      key="29"
+      message="Message 9"
+      onClickUser={[Function]}
+      to={Array []}
+    />
+    <Message
+      date="8/28/2018"
+      from="User 3"
+      id="30"
+      key="30"
+      message="Message 10"
+      onClickUser={[Function]}
+      to={Array []}
+    />
+  </ul>
+</div>
+`;

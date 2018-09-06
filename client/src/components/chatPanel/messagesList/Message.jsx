@@ -15,6 +15,7 @@ function Message({
         type="button"
         key={t}
         className="user-select to"
+        onClick={() => onClickUser(t)}
       >
         {`@${t}`}
       </button>))

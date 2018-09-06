@@ -1,0 +1,142 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SpeechField renders without crashing 1`] = `
+<div
+  className="speech-container"
+>
+  <div
+    className="speech-input-container"
+  >
+    <input
+      className="speech"
+      onChange={[Function]}
+      type="text"
+      value="123"
+    />
+    <button
+      className="say"
+      onClick={[Function]}
+      type="button"
+    >
+      Say
+    </button>
+  </div>
+  <div
+    className="speech-to-container"
+  />
+</div>
+`;
+
+exports[`SpeechField renders without crashing when message is being sent to 1 recipient 1`] = `
+<div
+  className="speech-container"
+>
+  <div
+    className="speech-input-container"
+  >
+    <input
+      className="speech"
+      onChange={[Function]}
+      type="text"
+      value="123"
+    />
+    <button
+      className="say"
+      onClick={[Function]}
+      type="button"
+    >
+      Say
+    </button>
+  </div>
+  <div
+    className="speech-to-container"
+  >
+    <ToButton
+      key="recipient1"
+      onRemoveTo={[Function]}
+      to="recipient1"
+    />
+  </div>
+</div>
+`;
+
+exports[`SpeechField renders without crashing when message is being sent to 2 recipients 1`] = `
+<div
+  className="speech-container"
+>
+  <div
+    className="speech-input-container"
+  >
+    <input
+      className="speech"
+      onChange={[Function]}
+      type="text"
+      value="123"
+    />
+    <button
+      className="say"
+      onClick={[Function]}
+      type="button"
+    >
+      Say
+    </button>
+  </div>
+  <div
+    className="speech-to-container"
+  >
+    <ToButton
+      key="recipient1"
+      onRemoveTo={[Function]}
+      to="recipient1"
+    />
+    <ToButton
+      key="recipient2"
+      onRemoveTo={[Function]}
+      to="recipient2"
+    />
+  </div>
+</div>
+`;
+
+exports[`SpeechField renders without crashing when message is being sent to 3 recipients 1`] = `
+<div
+  className="speech-container"
+>
+  <div
+    className="speech-input-container"
+  >
+    <input
+      className="speech"
+      onChange={[Function]}
+      type="text"
+      value="123"
+    />
+    <button
+      className="say"
+      onClick={[Function]}
+      type="button"
+    >
+      Say
+    </button>
+  </div>
+  <div
+    className="speech-to-container"
+  >
+    <ToButton
+      key="recipient1"
+      onRemoveTo={[Function]}
+      to="recipient1"
+    />
+    <ToButton
+      key="recipient2"
+      onRemoveTo={[Function]}
+      to="recipient2"
+    />
+    <ToButton
+      key="recipient3"
+      onRemoveTo={[Function]}
+      to="recipient3"
+    />
+  </div>
+</div>
+`;
