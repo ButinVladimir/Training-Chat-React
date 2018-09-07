@@ -15,6 +15,5 @@ describe('User', () => {
     component.find('.user-select').simulate('click');
 
     expect(mock).toHaveBeenCalledTimes(1);
-    expect(mock).toHaveBeenCalledWith('user');
   });
 });

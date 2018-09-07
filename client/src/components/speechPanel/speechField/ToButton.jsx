@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 function ToButton({ to, onRemoveTo }) {
   return (
-    <button className="to-button" type="button" onClick={() => onRemoveTo(to)}>
+    <button className="to-button" type="button" onClick={onRemoveTo}>
       {`@${to}`}
     </button>
   );

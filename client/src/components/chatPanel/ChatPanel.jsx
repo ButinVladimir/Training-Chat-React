@@ -1,21 +1,19 @@
 import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
 import NotConnectedPopup from './notConnectedPopup/NotConnectedPopup';
-import MessagesList from './messagesList/MessagesList';
-import { messageShape } from '../../helpers/Message';
+import MessagesList from './messagesList/MessagesListContainer';
 
-function ChatPanel({ connected, messages, onClickUser }) {
+function ChatPanel({ connected, onClickUser }) {
   return (
     <Fragment>
       {!connected && <NotConnectedPopup />}
-      {connected && <MessagesList messages={messages} onClickUser={onClickUser} />}
+      {connected && <MessagesList onClickUser={onClickUser} />}
     </Fragment>
   );
 }
 
 ChatPanel.propTypes = {
   connected: PropTypes.bool.isRequired,
-  messages: PropTypes.arrayOf(PropTypes.shape(messageShape)).isRequired,
   onClickUser: PropTypes.func.isRequired,
 };
 

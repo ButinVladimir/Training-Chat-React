@@ -14,6 +14,5 @@ describe('ToButton', () => {
     component.find('button').simulate('click');
 
     expect(mock).toHaveBeenCalledTimes(1);
-    expect(mock).toHaveBeenCalledWith('recipient');
   });
 });

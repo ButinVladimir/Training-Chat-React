@@ -10,7 +10,6 @@ describe('SpeechField', () => {
         to={[]}
         onChange={() => {}}
         onSay={() => {}}
-        onRemoveTo={() => {}}
       />,
     );
     expect(component).toMatchSnapshot();
@@ -23,7 +22,6 @@ describe('SpeechField', () => {
         to={['recipient1']}
         onChange={() => {}}
         onSay={() => {}}
-        onRemoveTo={() => {}}
       />,
     );
     expect(component).toMatchSnapshot();
@@ -36,7 +34,6 @@ describe('SpeechField', () => {
         to={['recipient1', 'recipient2']}
         onChange={() => {}}
         onSay={() => {}}
-        onRemoveTo={() => {}}
       />,
     );
     expect(component).toMatchSnapshot();
@@ -49,7 +46,6 @@ describe('SpeechField', () => {
         to={['recipient1', 'recipient2', 'recipient3']}
         onChange={() => {}}
         onSay={() => {}}
-        onRemoveTo={() => {}}
       />,
     );
     expect(component).toMatchSnapshot();
@@ -63,7 +59,6 @@ describe('SpeechField', () => {
         to={[]}
         onChange={mock}
         onSay={() => {}}
-        onRemoveTo={() => {}}
       />,
     );
 
@@ -83,7 +78,6 @@ describe('SpeechField', () => {
         to={[]}
         onChange={() => {}}
         onSay={mock}
-        onRemoveTo={() => {}}
       />,
     );
     const input = component.find('button.say');

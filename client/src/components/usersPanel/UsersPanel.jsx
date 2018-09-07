@@ -1,14 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import User from './user/User';
+import User from './user/UserContainer';
 import './style.css';
 
-function UsersPanel({ usersList, onClickUser }) {
+function UsersPanel({ usersList }) {
   const convertedUsersList = usersList.map(user => (
     <User
       key={user}
       user={user}
-      onClickUser={onClickUser}
     />
   ));
 
@@ -23,7 +22,6 @@ function UsersPanel({ usersList, onClickUser }) {
 
 UsersPanel.propTypes = {
   usersList: PropTypes.arrayOf(PropTypes.string.isRequired).isRequired,
-  onClickUser: PropTypes.func.isRequired,
 };
 
 export default UsersPanel;

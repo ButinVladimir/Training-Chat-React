@@ -7,14 +7,12 @@ exports[`UsersPanel renders without crashing 1`] = `
   <ul
     className="users-list"
   >
-    <User
+    <Connect(User)
       key="user 1"
-      onClickUser={[Function]}
       user="user 1"
     />
-    <User
+    <Connect(User)
       key="user 2"
-      onClickUser={[Function]}
       user="user 2"
     />
   </ul>

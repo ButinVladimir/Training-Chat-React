@@ -1,11 +1,10 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import ChatPanel from './ChatPanel';
-import testMessages from '../../helpers/testMessages';
 
 describe('ChatPanel', () => {
   it('renders without crashing when not connected', () => {
-    const component = shallow(<ChatPanel connected={false} messages={[]} onClickUser={() => {}} />);
+    const component = shallow(<ChatPanel connected={false} onClickUser={() => {}} />);
     expect(component).toMatchSnapshot();
   });
 
@@ -13,7 +12,6 @@ describe('ChatPanel', () => {
     const component = shallow(
       <ChatPanel
         connected
-        messages={testMessages}
         onClickUser={() => {}}
       />,
     );

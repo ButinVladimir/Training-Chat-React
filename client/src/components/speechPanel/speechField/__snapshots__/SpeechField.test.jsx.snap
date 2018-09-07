@@ -51,9 +51,8 @@ exports[`SpeechField renders without crashing when message is being sent to 1 re
   <div
     className="speech-to-container"
   >
-    <ToButton
+    <Connect(ToButton)
       key="recipient1"
-      onRemoveTo={[Function]}
       to="recipient1"
     />
   </div>
@@ -84,14 +83,12 @@ exports[`SpeechField renders without crashing when message is being sent to 2 re
   <div
     className="speech-to-container"
   >
-    <ToButton
+    <Connect(ToButton)
       key="recipient1"
-      onRemoveTo={[Function]}
       to="recipient1"
     />
-    <ToButton
+    <Connect(ToButton)
       key="recipient2"
-      onRemoveTo={[Function]}
       to="recipient2"
     />
   </div>
@@ -122,19 +119,16 @@ exports[`SpeechField renders without crashing when message is being sent to 3 re
   <div
     className="speech-to-container"
   >
-    <ToButton
+    <Connect(ToButton)
       key="recipient1"
-      onRemoveTo={[Function]}
       to="recipient1"
     />
-    <ToButton
+    <Connect(ToButton)
       key="recipient2"
-      onRemoveTo={[Function]}
       to="recipient2"
     />
-    <ToButton
+    <Connect(ToButton)
       key="recipient3"
-      onRemoveTo={[Function]}
       to="recipient3"
     />
   </div>

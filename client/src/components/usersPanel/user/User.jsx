@@ -7,7 +7,7 @@ function User({ user, onClickUser }) {
       <button
         type="button"
         className="user-select"
-        onClick={() => onClickUser(user)}
+        onClick={onClickUser}
       >
         {user}
       </button>

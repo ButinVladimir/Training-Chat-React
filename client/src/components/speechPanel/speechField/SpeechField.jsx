@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import ToButton from './ToButton';
+import ToButton from './ToButtonContainer';
 import './style.css';
 
 function SpeechField({
@@ -8,9 +8,8 @@ function SpeechField({
   to,
   onChange,
   onSay,
-  onRemoveTo,
 }) {
-  const convertedTo = to.map(t => <ToButton key={t} to={t} onRemoveTo={onRemoveTo} />);
+  const convertedTo = to.map(t => <ToButton key={t} to={t} />);
 
   return (
     <div className="speech-container">
@@ -30,7 +29,6 @@ SpeechField.propTypes = {
   to: PropTypes.arrayOf(PropTypes.string).isRequired,
   onChange: PropTypes.func.isRequired,
   onSay: PropTypes.func.isRequired,
-  onRemoveTo: PropTypes.func.isRequired,
 };
 
 SpeechField.defaultProps = {

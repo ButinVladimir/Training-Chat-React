@@ -4,7 +4,7 @@ import UsersPanel from './UsersPanel';
 
 describe('UsersPanel', () => {
   it('renders without crashing', () => {
-    const component = shallow(<UsersPanel usersList={['user 1', 'user 2']} onClickUser={() => {}} />);
+    const component = shallow(<UsersPanel usersList={['user 1', 'user 2']} />);
     expect(component).toMatchSnapshot();
   });
 });

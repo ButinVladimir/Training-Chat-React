@@ -5,26 +5,14 @@ import LoginPanel from './LoginPanel';
 describe('LoginPanel', () => {
   it('renders without crashing when not loginned', () => {
     const component = shallow(
-      <LoginPanel
-        loginned={false}
-        login="login"
-        onChangeLogin={() => {}}
-        onLogin={() => {}}
-        onLogout={() => {}}
-      />,
+      <LoginPanel loginned={false} />,
     );
     expect(component).toMatchSnapshot();
   });
 
   it('renders without crashing when loginned', () => {
     const component = shallow(
-      <LoginPanel
-        loginned
-        login="login"
-        onChangeLogin={() => {}}
-        onLogin={() => {}}
-        onLogout={() => {}}
-      />,
+      <LoginPanel loginned />,
     );
     expect(component).toMatchSnapshot();
   });
