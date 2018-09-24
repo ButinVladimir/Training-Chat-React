@@ -3,6 +3,7 @@
 exports[`Message renders without crashing when message has been sent to 1 recipient 1`] = `
 <li
   className="chat-message"
+  key="1"
 >
   <span
     className="date"
@@ -35,6 +36,7 @@ exports[`Message renders without crashing when message has been sent to 1 recipi
 exports[`Message renders without crashing when message has been sent to 2 recipients 1`] = `
 <li
   className="chat-message"
+  key="1"
 >
   <span
     className="date"
@@ -75,6 +77,7 @@ exports[`Message renders without crashing when message has been sent to 2 recipi
 exports[`Message renders without crashing when message has been sent to 3 recipients 1`] = `
 <li
   className="chat-message"
+  key="1"
 >
   <span
     className="date"
@@ -120,9 +123,35 @@ exports[`Message renders without crashing when message has been sent to 3 recipi
 </li>
 `;
 
-exports[`Message renders without crashing when message has been sent to all 1`] = `
+exports[`Message renders without crashing when message has been sent to all and to is not null 1`] = `
 <li
   className="chat-message"
+  key="1"
+>
+  <span
+    className="date"
+  >
+    [8/28/2018]
+  </span>
+  <button
+    className="user-select from"
+    onClick={[Function]}
+    type="button"
+  >
+    fromUser: 
+  </button>
+  <span
+    className="message"
+  >
+    testMessage1
+  </span>
+</li>
+`;
+
+exports[`Message renders without crashing when message has been sent to all and to is null 1`] = `
+<li
+  className="chat-message"
+  key="1"
 >
   <span
     className="date"

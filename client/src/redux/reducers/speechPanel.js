@@ -12,7 +12,7 @@ export default function speechPanel(state, action) {
   let messages;
 
   if (!loginPanelState.loginned) {
-    return state;
+    return { ...state };
   }
 
   switch (action.type) {
@@ -28,8 +28,8 @@ export default function speechPanel(state, action) {
     case actionTypes.SAY:
       if (speechPanelState.speech !== '') {
         message = new Message(
-          `${Math.random() * Math.PI}-${Date.now()}`,
-          Date(Date.now()),
+          action.id,
+          action.date,
           loginPanelState.login,
           speechPanelState.to.concat(),
           speechPanelState.speech,
@@ -51,7 +51,7 @@ export default function speechPanel(state, action) {
         };
       }
 
-      return state;
+      return { ...state };
 
     case actionTypes.ADD_TO:
       to = speechPanelState.to.find(v => v === action.recipient)
@@ -78,6 +78,6 @@ export default function speechPanel(state, action) {
       };
 
     default:
-      return state;
+      return { ...state };
   }
 }

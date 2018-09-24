@@ -4,7 +4,7 @@ import ChatPanel from './ChatPanel';
 
 describe('ChatPanel', () => {
   it('renders without crashing when not connected', () => {
-    const component = shallow(<ChatPanel connected={false} onClickUser={() => {}} />);
+    const component = shallow(<ChatPanel connected={false} />);
     expect(component).toMatchSnapshot();
   });
 
@@ -12,7 +12,6 @@ describe('ChatPanel', () => {
     const component = shallow(
       <ChatPanel
         connected
-        onClickUser={() => {}}
       />,
     );
     expect(component).toMatchSnapshot();

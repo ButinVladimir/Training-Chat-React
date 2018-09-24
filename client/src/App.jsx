@@ -15,8 +15,6 @@ function App() {
         <div className="chat-app-row grow">
           <ChatPanel
             connected={connected}
-            messages={testMessages}
-            onClickUser={() => {}}
           />
         </div>
 

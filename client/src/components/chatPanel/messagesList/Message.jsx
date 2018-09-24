@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { messageShape } from '../../../helpers/Message';
 
 function Message({
+  id,
   date,
   from,
   to,
@@ -22,7 +23,7 @@ function Message({
     : [];
 
   return (
-    <li className="chat-message" key={message.id}>
+    <li className="chat-message" key={id}>
       <span className="date">{`[${date}]`}</span>
       <button
         type="button"

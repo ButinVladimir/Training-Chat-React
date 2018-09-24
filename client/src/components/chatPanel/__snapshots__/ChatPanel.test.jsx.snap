@@ -2,9 +2,7 @@
 
 exports[`ChatPanel renders without crashing when connected 1`] = `
 <Fragment>
-  <Connect(MessagesList)
-    onClickUser={[Function]}
-  />
+  <Connect(MessagesList) />
 </Fragment>
 `;
 

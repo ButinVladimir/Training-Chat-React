@@ -1,6 +1,6 @@
 import * as actionTypes from '../actionTypes';
 
-export default function loginPanel(state, action) {
+const loginPanel = (state, action) => {
   const { loginPanel: loginPanelState, usersPanel: usersPanelState } = state;
   let usersList;
 
@@ -56,8 +56,10 @@ export default function loginPanel(state, action) {
       break;
 
     default:
-      return state;
+      return { ...state };
   }
 
-  return state;
-}
+  return { ...state };
+};
+
+export default loginPanel;

@@ -3,7 +3,21 @@ import { shallow } from 'enzyme';
 import Message from './Message';
 
 describe('Message', () => {
-  it('renders without crashing when message has been sent to all', () => {
+  it('renders without crashing when message has been sent to all and to is null', () => {
+    const component = shallow(
+      <Message
+        id="1"
+        date="8/28/2018"
+        from="fromUser"
+        to={null}
+        message="testMessage1"
+        onClickUser={() => {}}
+      />,
+    );
+    expect(component).toMatchSnapshot();
+  });
+
+  it('renders without crashing when message has been sent to all and to is not null', () => {
     const component = shallow(
       <Message
         id="1"

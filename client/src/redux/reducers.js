@@ -2,7 +2,7 @@ import compose from './compose';
 import loginPanel from './reducers/loginPanel';
 import speechPanel from './reducers/speechPanel';
 
-const reducer = compose(loginPanel, speechPanel);
+const reducers = compose(loginPanel, speechPanel);
 
 export default (state = {
   loginPanel: {
@@ -19,4 +19,4 @@ export default (state = {
   chatPanel: {
     messages: [],
   },
-}, action) => reducer(state, action);
+}, action) => reducers(state, action);

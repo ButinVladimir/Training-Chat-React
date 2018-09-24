@@ -9,7 +9,7 @@ const mapStateToProps = state => ({
 
 const mapDispatchToProps = dispatch => ({
   onChange: speechValue => dispatch(changeSpeech(speechValue)),
-  onSay: () => dispatch(say()),
+  onSay: () => dispatch(say(`${Math.random() * Math.PI}-${Date.now()}`, (new Date(Date.now()).toLocaleString()))),
   onRemoveTo: recipient => dispatch(removeTo(recipient)),
 });
 
