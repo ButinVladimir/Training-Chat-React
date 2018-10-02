@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SpeechPanelContainer renders without crashing 1`] = `
+<div
+  className="chat-speech-panel-container"
+>
+  <div
+    className="speech-container"
+  >
+    <div
+      className="speech-input-container"
+    >
+      <input
+        className="speech"
+        onChange={[Function]}
+        type="text"
+        value="speechValue"
+      />
+      <button
+        className="say"
+        onClick={[Function]}
+        type="button"
+      >
+        Say
+      </button>
+    </div>
+    <div
+      className="speech-to-container"
+    />
+  </div>
+</div>
+`;

@@ -1,6 +1,6 @@
 import { connect } from 'react-redux';
 import SpeechField from './SpeechField';
-import { changeSpeech, say, removeTo } from '../../../redux/actions';
+import { changeSpeech, say } from '../../../redux/actions';
 
 const mapStateToProps = state => ({
   speech: state.speechPanel.speech,
@@ -10,7 +10,6 @@ const mapStateToProps = state => ({
 const mapDispatchToProps = dispatch => ({
   onChange: speechValue => dispatch(changeSpeech(speechValue)),
   onSay: () => dispatch(say(`${Math.random() * Math.PI}-${Date.now()}`, (new Date(Date.now()).toLocaleString()))),
-  onRemoveTo: recipient => dispatch(removeTo(recipient)),
 });
 
 const SpeechFieldContainer = connect(mapStateToProps, mapDispatchToProps)(SpeechField);

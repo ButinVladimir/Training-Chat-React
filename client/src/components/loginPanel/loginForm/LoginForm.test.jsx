@@ -25,9 +25,7 @@ describe('LoginForm', () => {
       />,
     );
 
-    const input = component.find('input');
-    input.value = 'newLogin';
-    input.simulate('change', { target: { value: 'value' } });
+    component.find('input').simulate('change', { target: { value: 'value' } });
 
     expect(mock).toHaveBeenCalledTimes(1);
     expect(mock).toHaveBeenCalledWith('value');

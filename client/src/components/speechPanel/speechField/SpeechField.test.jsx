@@ -63,7 +63,6 @@ describe('SpeechField', () => {
     );
 
     const input = component.find('input.speech');
-    input.value = 'aaa';
     input.simulate('change', { target: { value: 'value' } });
 
     expect(mock).toHaveBeenCalledTimes(1);

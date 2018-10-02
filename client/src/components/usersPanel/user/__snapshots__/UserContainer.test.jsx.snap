@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserContainer renders without crashing 1`] = `
+<li
+  className="user-line"
+  key="user3"
+>
+  <button
+    className="user-select"
+    onClick={[Function]}
+    type="button"
+  >
+    user3
+  </button>
+</li>
+`;

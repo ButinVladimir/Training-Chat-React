@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SpeechFieldContainer renders without crashing 1`] = `
+<div
+  className="speech-container"
+>
+  <div
+    className="speech-input-container"
+  >
+    <input
+      className="speech"
+      onChange={[Function]}
+      type="text"
+      value="speechValue"
+    />
+    <button
+      className="say"
+      onClick={[Function]}
+      type="button"
+    >
+      Say
+    </button>
+  </div>
+  <div
+    className="speech-to-container"
+  >
+    <button
+      className="to-button"
+      onClick={[Function]}
+      type="button"
+    >
+      @to1
+    </button>
+    <button
+      className="to-button"
+      onClick={[Function]}
+      type="button"
+    >
+      @to2
+    </button>
+    <button
+      className="to-button"
+      onClick={[Function]}
+      type="button"
+    >
+      @to3
+    </button>
+  </div>
+</div>
+`;

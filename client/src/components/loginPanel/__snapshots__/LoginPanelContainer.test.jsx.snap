@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginPanelContainer renders login panel 1`] = `
+<div
+  className="chat-login-panel-container"
+>
+  <undefined />
+</div>
+`;

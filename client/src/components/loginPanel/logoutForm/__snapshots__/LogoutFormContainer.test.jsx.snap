@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LogoutFormContainer renders logout form 1`] = `
+Array [
+  <div
+    className="form-row"
+>
+    <span>
+        You are loginned as 
+    </span>
+    <strong>
+        123
+    </strong>
+</div>,
+  <div
+    className="form-row"
+>
+    <button
+        className="logout"
+        onClick={[Function]}
+        type="button"
+    >
+        Logout
+    </button>
+</div>,
+]
+`;
