@@ -1,8 +1,12 @@
 import * as actionTypes from '../actionTypes';
 
 const loginPanel = (state, action) => {
-  const { loginPanel: loginPanelState, usersPanel: usersPanelState } = state;
+  const { loginPanel: loginPanelState, usersPanel: usersPanelState, connected } = state;
   let usersList;
+
+  if (!connected) {
+    return state;
+  }
 
   switch (action.type) {
     case actionTypes.CHANGE_LOGIN:
@@ -56,10 +60,10 @@ const loginPanel = (state, action) => {
       break;
 
     default:
-      return { ...state };
+      return state;
   }
 
-  return { ...state };
+  return state;
 };
 
 export default loginPanel;

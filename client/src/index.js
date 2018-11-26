@@ -9,5 +9,5 @@ import './index.css';
 
 const store = createStore(reducers);
 
-ReactDOM.render(<Provider store={store}><App /></Provider>, document.getElementById('root'));
+ReactDOM.render(<Provider store={store}><App url="http://localhost:8000/" /></Provider>, document.getElementById('root'));
 registerServiceWorker();

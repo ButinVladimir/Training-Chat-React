@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ErrorPanel renders without crashing 1`] = `
+<div
+  className="error-panel-container"
+>
+  <div
+    className="error-panel"
+  >
+    <div
+      className="popup-row"
+    >
+      An error occurred
+    </div>
+    <div
+      className="popup-row"
+    />
+    <div
+      className="popup-row"
+    >
+      <button
+        className="close-button"
+        type="button"
+      >
+        Close
+      </button>
+    </div>
+  </div>
+</div>
+`;

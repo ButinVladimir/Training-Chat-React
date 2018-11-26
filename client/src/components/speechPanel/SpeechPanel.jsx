@@ -6,12 +6,13 @@ import './style.css';
 
 function SpeechPanel({
   loginned,
+  socket,
 }) {
   return (
     <div className="chat-speech-panel-container">
       {!loginned && <NotLoginnedMessage />}
       {loginned && (
-        <SpeechField />
+        <SpeechField socket={socket} />
       )}
     </div>
   );
@@ -19,6 +20,7 @@ function SpeechPanel({
 
 SpeechPanel.propTypes = {
   loginned: PropTypes.bool.isRequired,
+  socket: PropTypes.any.isRequired,
 };
 
 export default SpeechPanel;

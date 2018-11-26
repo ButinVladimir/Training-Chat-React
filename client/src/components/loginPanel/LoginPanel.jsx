@@ -6,17 +6,19 @@ import './style.css';
 
 function LoginPanel({
   loginned,
+  socket,
 }) {
   return (
     <div className="chat-login-panel-container">
-      {!loginned && <LoginForm />}
-      {loginned && <LogoutForm />}
+      {!loginned && <LoginForm socket={socket} />}
+      {loginned && <LogoutForm socket={socket} />}
     </div>
   );
 }
 
 LoginPanel.propTypes = {
   loginned: PropTypes.bool.isRequired,
+  socket: PropTypes.any.isRequired,
 };
 
 export default LoginPanel;

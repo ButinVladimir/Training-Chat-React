@@ -1,0 +1,10 @@
+export const LOGIN = 'login';
+export const LOGIN_SUCCESSFUL = 'loginSuccessful';
+export const LOGOUT = 'logout';
+export const LOGOUT_SUCCESSFUL = 'logoutSuccessful';
+export const USER_ERROR = 'userError';
+export const USER_APPEARS = 'userAppears';
+export const USER_DISAPPEARS = 'userDisappears';
+export const SEND_MESSAGE = 'sendMessage';
+export const GET_MESSAGE = 'getMessage';
+export const UPDATE_USER_LIST = 'updateUserList';

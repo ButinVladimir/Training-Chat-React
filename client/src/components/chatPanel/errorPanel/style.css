@@ -1,4 +1,4 @@
-.chat-not-connected-popup-container {
+.error-panel-container {
   flex-grow: 1;
   display: flex;
   flex-direction: row;
@@ -6,18 +6,24 @@
   justify-content: center;
 }
 
-.chat-not-connected-popup {
+.error-panel {
   background: #fbb;
   border: 1px solid #a22;
   border-radius: 10px;
   padding: 10px 25px;
-  height: 4em;
+  height: 6em;
   width: 20em;
 }
 
-.chat-not-connected-popup .popup-row {
+.error-panel .popup-row {
   color: #a22;
   text-align: center;
   line-height: 2em;
   font-weight: 600;
+}
+
+.error-panel .close-button {
+  border-radius: 4px;
+  height: 2em;
+  padding: 0 1.5em;
 }

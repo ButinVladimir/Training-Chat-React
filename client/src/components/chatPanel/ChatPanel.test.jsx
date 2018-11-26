@@ -3,7 +3,7 @@ import { shallow } from 'enzyme';
 import ChatPanel from './ChatPanel';
 
 describe('ChatPanel', () => {
-  it('renders without crashing when not connected', () => {
+  it('renders without crashing when error is shown', () => {
     const component = shallow(<ChatPanel connected={false} />);
     expect(component).toMatchSnapshot();
   });

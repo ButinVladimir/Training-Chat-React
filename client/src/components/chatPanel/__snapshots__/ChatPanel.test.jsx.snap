@@ -6,8 +6,8 @@ exports[`ChatPanel renders without crashing when connected 1`] = `
 </Fragment>
 `;
 
-exports[`ChatPanel renders without crashing when not connected 1`] = `
+exports[`ChatPanel renders without crashing when error is shown 1`] = `
 <Fragment>
-  <NotConnectedPopup />
+  <Connect(MessagesList) />
 </Fragment>
 `;

@@ -1,19 +1,20 @@
 import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
-import NotConnectedPopup from './notConnectedPopup/NotConnectedPopup';
+import ErrorPanel from './errorPanel/ErrorPanelContainer';
 import MessagesList from './messagesList/MessagesListContainer';
 
-function ChatPanel({ connected }) {
+function ChatPanel({ showError, socket }) {
   return (
     <Fragment>
-      {!connected && <NotConnectedPopup />}
-      {connected && <MessagesList />}
+      {showError && <ErrorPanel />}
+      {!showError && <MessagesList socket={socket} />}
     </Fragment>
   );
 }
 
 ChatPanel.propTypes = {
-  connected: PropTypes.bool.isRequired,
+  showError: PropTypes.bool.isRequired,
+  socket: PropTypes.any.isRequired,
 };
 
 export default ChatPanel;

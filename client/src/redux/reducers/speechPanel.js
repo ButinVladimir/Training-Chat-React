@@ -6,13 +6,14 @@ export default function speechPanel(state, action) {
     loginPanel: loginPanelState,
     speechPanel: speechPanelState,
     chatPanel: chatPanelState,
+    connected,
   } = state;
   let to;
   let message;
   let messages;
 
-  if (!loginPanelState.loginned) {
-    return { ...state };
+  if (!loginPanelState.loginned || !connected) {
+    return state;
   }
 
   switch (action.type) {
@@ -34,9 +35,7 @@ export default function speechPanel(state, action) {
           speechPanelState.to.concat(),
           speechPanelState.speech,
         );
-        messages = chatPanelState.messages.find(m => m.id === message.id)
-          ? chatPanelState.messages
-          : chatPanelState.messages.concat(message);
+        messages = chatPanelState.messages.concat(message);
 
         return {
           ...state,
@@ -51,7 +50,7 @@ export default function speechPanel(state, action) {
         };
       }
 
-      return { ...state };
+      return state;
 
     case actionTypes.ADD_TO:
       to = speechPanelState.to.find(v => v === action.recipient)
@@ -78,6 +77,6 @@ export default function speechPanel(state, action) {
       };
 
     default:
-      return { ...state };
+      return state;
   }
 }
