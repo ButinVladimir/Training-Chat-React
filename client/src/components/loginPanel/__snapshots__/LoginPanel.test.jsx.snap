@@ -4,7 +4,9 @@ exports[`LoginPanel renders without crashing when loginned 1`] = `
 <div
   className="chat-login-panel-container"
 >
-  <Connect(LogoutForm) />
+  <Connect(LogoutForm)
+    socket={lookup {}}
+  />
 </div>
 `;
 
@@ -12,6 +14,8 @@ exports[`LoginPanel renders without crashing when not loginned 1`] = `
 <div
   className="chat-login-panel-container"
 >
-  <Connect(LoginForm) />
+  <Connect(LoginForm)
+    socket={lookup {}}
+  />
 </div>
 `;

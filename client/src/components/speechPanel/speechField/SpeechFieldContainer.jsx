@@ -1,10 +1,11 @@
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
+import { Socket } from 'socket.io-client';
 import SpeechField from './SpeechField';
 import { changeSpeech, say, showError } from '../../../redux/actions';
-import { SEND_MESSAGE } from '../../../socket-events';
-import getId from '../../../getId';
-import getDate from '../../../getDate';
+import { SEND_MESSAGE } from '../../../helpers/socketEvents';
+import getId from '../../../helpers/getId';
+import getDate from '../../../helpers/getDate';
 
 const mapStateToProps = state => ({
   speech: state.speechPanel.speech,
@@ -39,7 +40,7 @@ const mergeProps = (stateProps, dispatchProps, ownProps) => {
 const SpeechFieldContainer = connect(mapStateToProps, mapDispatchToProps, mergeProps)(SpeechField);
 
 SpeechFieldContainer.propTypes = {
-  socket: PropTypes.any.isRequired,
+  socket: PropTypes.instanceOf(Socket).isRequired,
 };
 
 export default SpeechFieldContainer;

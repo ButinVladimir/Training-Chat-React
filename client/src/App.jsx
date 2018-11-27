@@ -7,7 +7,7 @@ import SpeechPanel from './components/speechPanel/SpeechPanelContainer';
 import LoginPanel from './components/loginPanel/LoginPanelContainer';
 import UsersPanel from './components/usersPanel/UsersPanelContainer';
 import { connect, disconnect, showError } from './redux/actions';
-import { USER_ERROR } from './socket-events';
+import { USER_ERROR } from './helpers/socketEvents';
 import './App.css';
 
 class App extends Component {

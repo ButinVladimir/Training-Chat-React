@@ -2,6 +2,7 @@ import {
   LOGIN,
   LOGOUT,
   SEND_MESSAGE,
+  USER_DISAPPEARS,
   UPDATE_USER_LIST,
 } from './events';
 import User from './user';
@@ -16,6 +17,7 @@ const socketHandler = users => (socket) => {
   socket.on('disconnect', () => {
     if (user.login !== null) {
       users.remove(user.login);
+      socket.broadcast.emit(USER_DISAPPEARS, user.login);
     }
 
     console.log('User disconnected');

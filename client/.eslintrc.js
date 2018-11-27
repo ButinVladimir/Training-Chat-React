@@ -8,6 +8,8 @@ module.exports = {
   'plugins': ['jest'],
   'rules': {
     'linebreak-style': ['error', 'windows'],
-    'no-console': 'off'
+    'no-console': 'off',
+    'import/no-named-as-default': 0,
+    'import/no-named-as-default-member': 0,
   }
 };

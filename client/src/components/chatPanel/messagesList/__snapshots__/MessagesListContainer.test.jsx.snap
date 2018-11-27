@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MessageContainer renders list of messages 1`] = `
+<div
+  className="chat-messages-list-container"
+>
+  <ul
+    className="chat-messages-list"
+  >
+    <li
+      className="chat-message"
+      key="id"
+    >
+      <span
+        className="date"
+      >
+        [date]
+      </span>
+      <button
+        className="user-select from"
+        onClick={[Function]}
+        type="button"
+      >
+        from: 
+      </button>
+      <button
+        className="user-select to"
+        key="to1"
+        onClick={[Function]}
+        type="button"
+      >
+        @to1
+      </button>
+      <button
+        className="user-select to"
+        key="to2"
+        onClick={[Function]}
+        type="button"
+      >
+        @to2
+      </button>
+      <span
+        className="message"
+      >
+        message
+      </span>
+    </li>
+  </ul>
+</div>
+`;

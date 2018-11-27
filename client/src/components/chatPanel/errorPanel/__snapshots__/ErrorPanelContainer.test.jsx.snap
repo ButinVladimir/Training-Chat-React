@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`ErrorPanel renders without crashing 1`] = `
+exports[`ErrorPanelContainer renders error panel 1`] = `
 <div
   className="error-panel-container"
 >
@@ -15,7 +15,7 @@ exports[`ErrorPanel renders without crashing 1`] = `
     <div
       className="popup-row"
     >
-      Test error
+      error
     </div>
     <div
       className="popup-row"

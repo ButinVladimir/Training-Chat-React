@@ -2,12 +2,14 @@
 
 exports[`ChatPanel renders without crashing when connected 1`] = `
 <Fragment>
-  <Connect(MessagesList) />
+  <Connect(MessagesList)
+    socket={lookup {}}
+  />
 </Fragment>
 `;
 
 exports[`ChatPanel renders without crashing when error is shown 1`] = `
 <Fragment>
-  <Connect(MessagesList) />
+  <Connect(ErrorPanel) />
 </Fragment>
 `;

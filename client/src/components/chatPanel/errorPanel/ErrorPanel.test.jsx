@@ -4,7 +4,7 @@ import ErrorPanel from './ErrorPanel';
 
 describe('ErrorPanel', () => {
   it('renders without crashing', () => {
-    const component = shallow(<ErrorPanel />);
+    const component = shallow(<ErrorPanel error='Test error' onCloseError={() => {}}/>);
     expect(component).toMatchSnapshot();
   });
 });
