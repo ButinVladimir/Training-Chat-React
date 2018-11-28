@@ -10,4 +10,9 @@ Socket.prototype.off = function(event, handler) {
   this.__mockHandlers.delete(event);
 };
 
+const factoryFn = (url) => {
+  return new Socket();
+};
+
 export { Socket };
+export default factoryFn;

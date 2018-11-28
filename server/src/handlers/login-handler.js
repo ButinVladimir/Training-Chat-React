@@ -9,8 +9,10 @@ export default (users, socket, user) => (userLogin) => {
 
   if (!userLogin) {
     socket.emit(USER_ERROR, 'Login cannot be empty');
+  } else if (user.login) {
+    socket.emit(USER_ERROR, 'User has already logged in');
   } else if (users.exists(userLogin)) {
-    socket.emit(USER_ERROR, `User ${userLogin} is already logged in`);
+    socket.emit(USER_ERROR, `User ${userLogin} has already logged in`);
   } else {
     user.setLogin(userLogin);
     users.add(user);

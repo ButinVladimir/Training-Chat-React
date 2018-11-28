@@ -10,14 +10,26 @@ exports[`App renders without crashing 1`] = `
     <div
       className="chat-app-row grow"
     >
-      <ChatPanel
-        connected={true}
-      />
+      <div
+        className="chat-messages-list-container"
+      >
+        <ul
+          className="chat-messages-list"
+        />
+      </div>
     </div>
     <div
       className="chat-app-row"
     >
-      <Connect(SpeechPanel) />
+      <div
+        className="chat-speech-panel-container"
+      >
+        <div
+          className="not-loginned-message"
+        >
+          Login first to send messages
+        </div>
+      </div>
     </div>
   </div>
   <div
@@ -26,12 +38,38 @@ exports[`App renders without crashing 1`] = `
     <div
       className="chat-app-row"
     >
-      <Connect(LoginPanel) />
+      <div
+        className="chat-login-panel-container"
+      >
+        <div
+          className="form-row"
+        >
+          <input
+            className="input"
+            onChange={[Function]}
+            type="text"
+            value=""
+          />
+          <button
+            className="login"
+            onClick={[Function]}
+            type="button"
+          >
+            Login
+          </button>
+        </div>
+      </div>
     </div>
     <div
       className="chat-app-row grow"
     >
-      <Connect(UsersPanel) />
+      <div
+        className="chat-users-list-container"
+      >
+        <ul
+          className="users-list"
+        />
+      </div>
     </div>
   </div>
 </div>

@@ -69,4 +69,86 @@ describe('actions', () => {
       recipient,
     });
   });
+
+  it('creates connect action', () => {
+    const action = actions.connect();
+
+    expect(action).toEqual({
+      type: actionTypes.CONNECT,
+    });
+  });
+
+  it('creates disconnect action', () => {
+    const action = actions.disconnect();
+
+    expect(action).toEqual({
+      type: actionTypes.DISCONNECT,
+    });
+  });
+
+  it('creates showError action', () => {
+    const error = 'Test error';
+    const action = actions.showError(error);
+
+    expect(action).toEqual({
+      type: actionTypes.SHOW_ERROR,
+      error,
+    });
+  });
+
+  it('creates hideError action', () => {
+    const action = actions.hideError();
+
+    expect(action).toEqual({
+      type: actionTypes.HIDE_ERROR,
+    });
+  });
+
+  it('creates userAppears action', () => {
+    const login = 'userLogin';
+    const action = actions.userAppears(login);
+
+    expect(action).toEqual({
+      type: actionTypes.USER_APPEARS,
+      login,
+    });
+  });
+
+  it('creates userDisappears action', () => {
+    const login = 'userLogin';
+    const action = actions.userDisappears(login);
+
+    expect(action).toEqual({
+      type: actionTypes.USER_DISAPPEARS,
+      login,
+    });
+  });
+
+  it('creates getMessage action', () => {
+    const message = 'This is a message';
+    const from = 'fromUser';
+    const to = ['user1', 'user2'];
+    const id = 'messageId';
+    const date = '1/1/2018';
+    const action = actions.getMessage(message, from, to, id, date);
+
+    expect(action).toEqual({
+      type: actionTypes.GET_MESSAGE,
+      message,
+      from,
+      to,
+      id,
+      date,
+    });
+  });
+
+  it('creates updateUserList action', () => {
+    const users = ['user1', 'user2', 'user3'];
+    const action = actions.updateUserList(users);
+
+    expect(action).toEqual({
+      type: actionTypes.UPDATE_USER_LIST,
+      users,
+    });
+  });
 });

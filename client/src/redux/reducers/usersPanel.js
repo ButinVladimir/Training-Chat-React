@@ -1,14 +1,20 @@
 import * as actionTypes from '../actionTypes';
 
 const loginPanel = (state, action) => {
-  const { usersPanel: usersPanelState } = state;
+  const { usersPanel: usersPanelState, connected } = state;
   let usersList;
+
+  if (!connected) {
+    return state;
+  }
 
   switch (action.type) {
     case actionTypes.USER_APPEARS:
-      usersList = usersPanelState.usersList.find(v => v === action.login)
-        ? usersPanelState.usersList
-        : usersPanelState.usersList.concat(action.login);
+      if (usersPanelState.usersList.find(v => v === action.login)) {
+        return state;
+      }
+
+      usersList = usersPanelState.usersList.concat(action.login);
 
       return {
         ...state,

@@ -4,7 +4,9 @@ exports[`SpeechPanel renders without crashing when loginned 1`] = `
 <div
   className="chat-speech-panel-container"
 >
-  <Connect(SpeechField) />
+  <Connect(SpeechField)
+    socket={lookup {}}
+  />
 </div>
 `;
 

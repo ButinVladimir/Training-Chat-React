@@ -53,9 +53,11 @@ export default function speechPanel(state, action) {
       return state;
 
     case actionTypes.ADD_TO:
-      to = speechPanelState.to.find(v => v === action.recipient)
-        ? speechPanelState.to
-        : speechPanelState.to.concat(action.recipient);
+      if (speechPanelState.to.find(v => v === action.recipient)) {
+        return state;
+      }
+
+      to = speechPanelState.to.concat(action.recipient);
 
       return {
         ...state,

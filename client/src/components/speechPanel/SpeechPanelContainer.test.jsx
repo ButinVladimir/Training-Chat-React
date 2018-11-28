@@ -1,4 +1,5 @@
 import React from 'react';
+import { Socket } from 'socket.io-client';
 import configureStore from 'redux-mock-store';
 import { Provider } from 'react-redux';
 import { mount } from 'enzyme';
@@ -6,9 +7,11 @@ import SpeechPanelContainer from './SpeechPanelContainer';
 
 describe('SpeechPanelContainer', () => {
   let mockStore;
+  let mockSocket;
 
   beforeEach(() => {
     mockStore = configureStore();
+    mockSocket = new Socket();
   });
 
   it('renders without crashing', () => {
@@ -23,7 +26,7 @@ describe('SpeechPanelContainer', () => {
     });
     const component = mount(
       <Provider store={store}>
-        <SpeechPanelContainer />
+        <SpeechPanelContainer socket={mockSocket} />
       </Provider>,
     );
 

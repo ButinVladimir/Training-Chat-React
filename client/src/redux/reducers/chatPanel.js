@@ -2,7 +2,11 @@ import * as actionTypes from '../actionTypes';
 import Message from '../../helpers/Message';
 
 const loginPanel = (state, action) => {
-  const { chatPanel: chatPanelState } = state;
+  const { chatPanel: chatPanelState, connected } = state;
+
+  if (!connected) {
+    return state;
+  }
 
   switch (action.type) {
     case actionTypes.GET_MESSAGE:

@@ -17,6 +17,11 @@ describe('reducers', () => {
       chatPanel: {
         messages: [],
       },
+      connected: false,
+      errorPanel: {
+        showError: false,
+        error: '',
+      },
     };
     const newState = reducers(undefined, 'TEST_ACTION');
 
