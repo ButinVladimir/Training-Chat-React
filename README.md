@@ -1,4 +1,4 @@
-# Simple chat training project written with React, Redux, Jest, Enzyme and socket.io.
+# Simple chat training project written using React, Redux, Jest, Enzyme and socket.io.
 ## Before using you need following:
 
 1. Install NodeJS and npm
